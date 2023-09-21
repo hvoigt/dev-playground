@@ -12,7 +12,8 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name = "nginx"
+  name         = "nginx"
+  keep_locally = true
 }
 
 resource "docker_container" "nginx" {
