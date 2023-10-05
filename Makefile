@@ -12,3 +12,9 @@ images:
 .PHONY: ca
 ca:
 	make -C ca
+
+create-network:
+	docker network create kubernetes-the-hard-way
+
+create-nodes: create-network
+	./scripts/create-nodes.sh
