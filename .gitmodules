@@ -1,3 +1,6 @@
 [submodule "cfssl"]
 	path = cfssl
 	url = git@github.com:cloudflare/cfssl.git
+[submodule "kubernetes"]
+	path = kubernetes
+	url = git@github.com:kubernetes/kubernetes.git
