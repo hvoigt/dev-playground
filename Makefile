@@ -4,4 +4,4 @@ install-cfssl:
 
 .PHONY: kubernetes
 kubernetes:
-	make -C kubernetes quick-release
+	make -C kubernetes
