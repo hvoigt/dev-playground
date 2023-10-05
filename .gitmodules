@@ -4,3 +4,6 @@
 [submodule "kubernetes"]
 	path = kubernetes
 	url = git@github.com:kubernetes/kubernetes.git
+[submodule "kubernetes-the-hard-way-on-docker"]
+	path = kubernetes-the-hard-way-on-docker
+	url = git@github.com:brightzheng100/kubernetes-the-hard-way-on-docker.git

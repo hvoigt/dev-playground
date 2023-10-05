@@ -5,3 +5,6 @@ install-cfssl:
 .PHONY: kubernetes
 kubernetes:
 	make -C kubernetes
+
+images:
+	./scripts/build-images.sh
