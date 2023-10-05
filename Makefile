@@ -8,3 +8,7 @@ kubernetes:
 
 images:
 	./scripts/build-images.sh
+
+.PHONY: ca
+ca:
+	make -C ca
